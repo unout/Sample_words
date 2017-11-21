@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.Controller">
+    <center>
+        <VBox prefHeight="120.0" prefWidth="360.0">
+            <children>
+                <TextArea fx:id="enter" prefHeight="120.0" prefWidth="320.0" wrapText="true" />
+                <TextArea fx:id="exit" editable="false" minWidth="70.0" prefHeight="120.0" prefWidth="70.0" wrapText="true" />
+            </children>
+        </VBox>
+    </center>
+    <bottom>
+    </bottom>
+</BorderPane>
